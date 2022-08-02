@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: "poopins", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+.image__responsive {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #212121;
+}
+h1 {
+    margin: 0;
+}
+
+
+.navbar ul li {
+ display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 13px;
+    color: #f4511e;
+    letter-spacing: 3px;
+}
+
+
+
+
+.hero__section {
+    
+    width: 100%;
+    height: 85vh;
+    
+}
+.hero__text {
+    text-align: center;
+}
+.hero__text h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+
+
+
+.recipe__section {
+    padding: 200px 0px;
+}
+
+.bc__section {
+    padding: 0px 0px;
+}
+
+.mc__section {
+    padding: 100px 0px;
+}
+
+.yz__section {
+    padding: 100px 0px;
+}
+
+.image__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+
+.image__wrapper img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.image__wrapper-text {
+    padding: 10px 80px;
+    
+    position: absolute;
+    
+    text-align: center;
+    
+    
+}
+
+
+.about__section {
+    padding: 70px 0px;
+    background-color: #f4511e;
+}
+
+
+.subscribe__section {
+    padding: 70px 0px;
+    background-color: #212121;
+    color: #fff;
+}
